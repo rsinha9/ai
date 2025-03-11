@@ -8,6 +8,13 @@ import java.util.List;
 
 @RestController
 public class TodoController {
+    /**
+     * Handles HTTP GET requests to the "/todos" endpoint.
+     *
+     * <p>This method returns an empty list, serving as a placeholder for future implementations that may provide actual todo items.</p>
+     *
+     * @return an empty list of todos
+     */
     @GetMapping("/todos")
     public List<?> getTodos() {
         return new ArrayList<>();
