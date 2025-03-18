@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 public class TodoController {
-    @GetMapping("/todos")
+    @GetMapping("/api/v1/todos")
     public List<TodoItemModel> getTodos() {
         return new ArrayList<>();
     }
